@@ -38,4 +38,16 @@ public class database_jadi2an {
         System.out.println("Harga: Rp3000");
         System.out.println("Stok: 280pcs");
     }
+
+    public static void aqua(){
+        System.out.println("Nama Produk: Aqua");
+        System.out.println("Harga: Rp3000");
+        System.out.println("Stok: 440pcs");
+    }
+
+    public static void le_minerale(){
+        System.out.println("Nama Produk: Le Minerale");
+        System.out.println("Harga: Rp3000");
+        System.out.println("Stok: 300pcs");
+    }
 }
