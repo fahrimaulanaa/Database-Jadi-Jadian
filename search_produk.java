@@ -13,5 +13,8 @@ public class search_produk {
         else if(produk.equalsIgnoreCase("Indomie")){
             database_jadi2an.indomie();
         }
+        else if(produk.equalsIgnoreCase("Lemonilo")){
+            database_jadi2an.lemonilo();
+        }
     }
 }
