@@ -4,6 +4,7 @@ public class search_produk {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         System.out.println("Selamat datang di system pencarian produk");
+        System.out.println("NB: Jika ada spasi dalam nama produk gunakan _ agar produk bisa dicari");
         System.out.println("Masukkan produk yang ingin dicari: ");
         String produk = sc.next();
 
@@ -16,19 +17,19 @@ public class search_produk {
         else if(produk.equalsIgnoreCase("Lemonilo")){
             database_jadi2an.lemonilo();
         }
-        else if(produk.equalsIgnoreCase("Fruit Tea")){
+        else if(produk.equalsIgnoreCase("Fruit_Tea")){
             database_jadi2an.fruit_tea();
         }
         else if(produk.equalsIgnoreCase("Indomilk")){
             database_jadi2an.indomilk();
         }
-        else if(produk.equalsIgnoreCase("Mie Sedap")){
+        else if(produk.equalsIgnoreCase("Mie_Sedap")){
             database_jadi2an.mie_sedap();
         }
         else if(produk.equalsIgnoreCase("Aqua")){
             database_jadi2an.aqua();
         }
-        else if(produk.equalsIgnoreCase("Le Minerale")){
+        else if(produk.equalsIgnoreCase("Le_Minerale")){
             database_jadi2an.le_minerale();
         }
     }
