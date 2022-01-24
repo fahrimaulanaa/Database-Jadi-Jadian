@@ -19,5 +19,8 @@ public class search_produk {
         else if(produk.equalsIgnoreCase("Fruit Tea")){
             database_jadi2an.fruit_tea();
         }
+        else if(produk.equalsIgnoreCase("Indomilk")){
+            database_jadi2an.indomilk();
+        }
     }
 }
