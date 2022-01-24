@@ -22,5 +22,14 @@ public class search_produk {
         else if(produk.equalsIgnoreCase("Indomilk")){
             database_jadi2an.indomilk();
         }
+        else if(produk.equalsIgnoreCase("Mie Sedap")){
+            database_jadi2an.mie_sedap();
+        }
+        else if(produk.equalsIgnoreCase("Aqua")){
+            database_jadi2an.aqua();
+        }
+        else if(produk.equalsIgnoreCase("Le Minerale")){
+            database_jadi2an.le_minerale();
+        }
     }
 }
