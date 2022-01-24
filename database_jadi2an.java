@@ -36,6 +36,6 @@ public class database_jadi2an {
     public static void mie_sedap(){
         System.out.println("Nama Produk: Mie Sedap");
         System.out.println("Harga: Rp3000");
-        System.out.println("Stok: 290pcs");
+        System.out.println("Stok: 280pcs");
     }
 }
