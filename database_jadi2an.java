@@ -50,4 +50,10 @@ public class database_jadi2an {
         System.out.println("Harga: Rp3000");
         System.out.println("Stok: 300pcs");
     }
+
+    public static void cleo(){
+        System.out.println("Nama Produk: Cleo");
+        System.out.println("Harga: Rp2000");
+        System.out.println("Stok: 200pcs");
+    }
 }
